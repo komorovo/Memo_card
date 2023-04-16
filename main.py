@@ -33,10 +33,10 @@ lb_Question = QLabel('Самый сложный вопрос в мире!')  # �
 
 RadioGroupBox = QGroupBox("Варианты ответов")  # группа на экране для переключателей с ответами
 
-rbtn_1 = QRadioButton('Вариант 1')
-rbtn_2 = QRadioButton('Вариант 2')
-rbtn_3 = QRadioButton('Вариант 3')
-rbtn_4 = QRadioButton('Вариант 4')
+rbtn_1 = QRadioButton('Вариант I')
+rbtn_2 = QRadioButton('Вариант II')
+rbtn_3 = QRadioButton('Вариант III')
+rbtn_4 = QRadioButton('Вариант IV')
 
 RadioGroup = QButtonGroup()  # это для группировки переключателей, чтобы управлять их поведением
 RadioGroup.addButton(rbtn_1)
